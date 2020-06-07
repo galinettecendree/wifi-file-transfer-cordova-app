@@ -13,16 +13,10 @@
     "cordova-plugin-file": {
       "PACKAGE_NAME": "com.example.hello"
     },
-    "cordova-plugin-android-permissions": {
-      "PACKAGE_NAME": "com.example.hello"
-    },
     "com.ourcodeworld.plugins.Filebrowser": {
       "PACKAGE_NAME": "com.example.hello"
     },
     "com.rjfun.cordova.httpd": {
-      "PACKAGE_NAME": "com.example.hello"
-    },
-    "cordova-plugin-safe-http": {
       "PACKAGE_NAME": "com.example.hello"
     },
     "cordova-plugin-dialogs": {

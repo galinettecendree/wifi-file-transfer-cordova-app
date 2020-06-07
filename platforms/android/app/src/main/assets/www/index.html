@@ -39,9 +39,22 @@
 </head>
 <body>
 <div class="app flex">
+    <a href="info.html" id="info">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 278.14 278.14">
+            <title>info2@1</title>
+            <g id="Calque_2" data-name="Calque 2">
+                <g id="Calque_1-2" data-name="Calque 1">
+                    <g>
+                        <path d="M139.07,278.14C62.39,278.14,0,215.75,0,139.07S62.39,0,139.07,0,278.14,62.39,278.14,139.07,215.75,278.14,139.07,278.14Zm0-242.14A103.07,103.07,0,1,0,242.14,139.07,103.19,103.19,0,0,0,139.07,36Z" style="fill: #223b7b"/>
+                        <path d="M148.39,93.6a12.4,12.4,0,0,1-9.23,3.85A13.16,13.16,0,0,1,126,84.27a12.39,12.39,0,0,1,3.86-9.22,12.88,12.88,0,0,1,9.32-3.77,12.87,12.87,0,0,1,13,13A12.88,12.88,0,0,1,148.39,93.6ZM128.05,206.86V110.64h22v96.22Z" style="fill: #223b7b"/>
+                    </g>
+                </g>
+            </g>
+        </svg>
+    </a>
 
-    <div id="part_0" class="story flex hideRight">
-        <svg id="file"  height="512" viewBox="0 0 24 24" width="512"
+    <div class="story flex hideRight" id="part_0">
+        <svg height="512" id="file" viewBox="0 0 24 24" width="512"
              xmlns="http://www.w3.org/2000/svg">
             <path d="m4 6.75c0-2.619 2.131-4.75 4.75-4.75h9.133c-.329-1.151-1.378-2-2.633-2h-11.5c-1.517 0-2.75 1.233-2.75 2.75v15.5c0 1.517 1.233 2.75 2.75 2.75h.25z"/>
             <path d="m20.25 4h-11.5c-1.517 0-2.75 1.233-2.75 2.75v14.5c0 1.517 1.233 2.75 2.75 2.75h11.5c1.517 0 2.75-1.233 2.75-2.75v-14.5c0-1.517-1.233-2.75-2.75-2.75zm-2 17h-7.5c-.414 0-.75-.336-.75-.75s.336-.75.75-.75h7.5c.414 0 .75.336.75.75s-.336.75-.75.75zm0-4h-7.5c-.414 0-.75-.336-.75-.75s.336-.75.75-.75h7.5c.414 0 .75.336.75.75s-.336.75-.75.75zm0-3.5h-7.5c-.414 0-.75-.336-.75-.75s.336-.75.75-.75h7.5c.414 0 .75.336.75.75s-.336.75-.75.75zm0-4h-7.5c-.414 0-.75-.336-.75-.75s.336-.75.75-.75h7.5c.414 0 .75.336.75.75s-.336.75-.75.75z"/>
@@ -50,11 +63,12 @@
         <h2>Etape 1</h2>
         <p>Choisissez le fichier que vous voulez partager</p>
         <div class="boutonRel flex">
-        <button id="fileChoose" type="button">Choisir</button> </div>
+            <button id="fileChoose" type="button">Choisir</button>
+        </div>
 
     </div>
-    <div id="part_1" class="story flex hideRight">
-        <svg id="share" height="512pt" viewBox="-21 0 512 512" width="512pt" xmlns="http://www.w3.org/2000/svg">
+    <div class="story flex hideRight" id="part_1">
+        <svg height="512pt" id="share" viewBox="-21 0 512 512" width="512pt" xmlns="http://www.w3.org/2000/svg">
             <path d="m453.332031 85.332031c0 38.292969-31.039062 69.335938-69.332031 69.335938s-69.332031-31.042969-69.332031-69.335938c0-38.289062 31.039062-69.332031 69.332031-69.332031s69.332031 31.042969 69.332031 69.332031zm0 0"/>
             <path d="m384 170.667969c-47.0625 0-85.332031-38.273438-85.332031-85.335938 0-47.058593 38.269531-85.332031 85.332031-85.332031s85.332031 38.273438 85.332031 85.332031c0 47.0625-38.269531 85.335938-85.332031 85.335938zm0-138.667969c-29.417969 0-53.332031 23.9375-53.332031 53.332031 0 29.398438 23.914062 53.335938 53.332031 53.335938s53.332031-23.9375 53.332031-53.335938c0-29.394531-23.914062-53.332031-53.332031-53.332031zm0 0"/>
             <path d="m453.332031 426.667969c0 38.289062-31.039062 69.332031-69.332031 69.332031s-69.332031-31.042969-69.332031-69.332031c0-38.292969 31.039062-69.335938 69.332031-69.335938s69.332031 31.042969 69.332031 69.335938zm0 0"/>
@@ -68,21 +82,23 @@
         <p>Maintenant il faut lancer le partage</p>
 
         <div class="boutonRel flex">
-        <button id="startServer">Lancer</button></div>
+            <button id="startServer">Lancer</button>
+        </div>
     </div>
-    <div id="part_2" class="story flex hideRight">
+    <div class="story flex hideRight" id="part_2">
         <h2>Parfait ! Le partage est activé !</h2>
-        <p>Il ne vous reste plus qu'à entrer l'url raccourcie ci-dessous sur le périphérique de votre choix pour accéder à votre fichier !</p>
+        <p>Il ne vous reste plus qu'à entrer l'url raccourcie ci-dessous sur le périphérique de votre choix pour accéder
+            à votre fichier !</p>
         <h3 class="msg" id="msgServer">Le serveur n'est pas en service</h3>
         <div class="boutonRel flex">
-        <button id="stopServer" type="button">Arrêter le partage</button></div>
+            <button id="stopServer" type="button">Arrêter le partage</button>
+        </div>
     </div>
 </div>
 
 
-
 <script src="cordova.js" type="text/javascript"></script>
-<script src="js/index.js" ></script>
+<script src="js/index.js"></script>
 
 </body>
 </html>
