@@ -1,0 +1,47 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.example.hello"
+    },
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "com.example.hello"
+    },
+    "cordova-plugin-android-permissions": {
+      "PACKAGE_NAME": "com.example.hello"
+    },
+    "com.ourcodeworld.plugins.Filebrowser": {
+      "PACKAGE_NAME": "com.example.hello"
+    },
+    "com.rjfun.cordova.httpd": {
+      "PACKAGE_NAME": "com.example.hello"
+    },
+    "cordova-plugin-safe-http": {
+      "PACKAGE_NAME": "com.example.hello"
+    },
+    "cordova-plugin-dialogs": {
+      "PACKAGE_NAME": "com.example.hello"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "com.example.hello"
+    },
+    "cordova-plugin-local-notification": {
+      "ANDROID_SUPPORT_V4_VERSION": "26.+",
+      "PACKAGE_NAME": "com.example.hello"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "com.example.hello"
+    },
+    "cordova-plugin-badge": {
+      "PACKAGE_NAME": "com.example.hello"
+    }
+  }
+}
