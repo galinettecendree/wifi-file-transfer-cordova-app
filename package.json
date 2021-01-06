@@ -13,7 +13,7 @@
   "author": "Apache Cordova Team",
   "license": "Apache-2.0",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "cordova-android": "^8.1.0",
     "cordova-httpd": "git+https://github.com/floatinghotpot/cordova-httpd.git",
     "cordova-ourcodeworld-filebrowser": "git+https://github.com/ourcodeworld/cordova-ourcodeworld-filebrowser.git",
